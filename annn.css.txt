@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+
+.button {
+    position: middle;
+    bottom: unset;
+    background-color: #95B9C7;
+    color: ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 2px 2px rgb(94, 102, 119) ;
+    padding: 100px;
+    min-height: 200px;
+    min-width: 350px;
+    font-size: xx-large;
+
+}
+.button:active {
+    background-color: #566D7E;
+}
